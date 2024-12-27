@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numerology Pyramid Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Name Pyramid Calculator</h1>
+        
+        <div class="input-section">
+            <label for="nameInput">Enter a Name:</label>
+            <input type="text" id="nameInput" placeholder="Enter Name">
+            <button onclick="generatePyramid()">Generate Pyramid</button>
+        </div>
+        
+        <div class="output-section">
+            <h3>Pyramid Levels:</h3>
+            <pre id="pyramidOutput"></pre>
+            
+            <h3>Total of the Name:</h3>
+            <p id="totalName"></p>
+            
+            <h3>Number of Levels:</h3>
+            <p id="numLevels"></p>
+
+            <h3>Final Value:</h3>
+            <p id="finalValue"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
